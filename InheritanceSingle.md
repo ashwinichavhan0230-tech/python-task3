@@ -1,7 +1,8 @@
 #Single
+
 class Father:
-    def house(self):
-        print("Father has a house")
+ def house(self):
+ print("Father has a house")
 
 class Son(Father):
     def bike(self):
