@@ -1,0 +1,264 @@
+#Method Overriding
+Example 20
+
+class Parent:
+    def show(self):
+        print("Parent class")
+
+class Child(Parent):
+    def show(self):
+        print("Child class")
+
+obj = Child()
+obj.show()
+
+-------------------------------------------------------
+
+class Animal:
+    def sound(self):
+        print("Animal makes sound")
+
+class Dog(Animal):
+    def sound(self):
+        print("Dog barks")
+
+obj = Dog()
+obj.sound()
+------------------------------------------------------------
+
+class Vehicle:
+    def start(self):
+        print("Vehicle starts")
+
+class Car(Vehicle):
+    def start(self):
+        print("Car starts with key")
+
+obj = Car()
+obj.start()
+---------------------------------------------------------------
+
+class Bank:
+    def interest(self):
+        print("Bank interest is 5%")
+
+class SBI(Bank):
+    def interest(self):
+        print("SBI interest is 7%")
+
+obj = SBI()
+obj.interest()
+-----------------------------------------------------------
+
+class Employee:
+    def salary(self):
+        print("Employee salary")
+
+class Manager(Employee):
+    def salary(self):
+        print("Manager salary is 50000")
+
+obj = Manager()
+obj.salary()
+
+-------------------------------------------------------
+
+class Student:
+    def study(self):
+        print("Student is studying")
+
+class CollegeStudent(Student):
+    def study(self):
+        print("College student studies Python")
+
+obj = CollegeStudent()
+obj.study()
+
+------------------------------------------------------
+
+class Father:
+    def work(self):
+        print("Father is a teacher")
+
+class Son(Father):
+    def work(self):
+        print("Son is a software developer")
+
+obj = Son()
+obj.work()
+
+--------------------------------------------------------
+
+class Mobile:
+    def call(self):
+        print("Making a normal call")
+
+class Smartphone(Mobile):
+    def call(self):
+        print("Making a video call")
+
+obj = Smartphone()
+obj.call()
+--------------------------------------------------------------
+
+class Shape:
+    def area(self):
+        print("Area of shape")
+
+class Rectangle(Shape):
+    def area(self):
+        print("Area = Length * Width")
+
+obj = Rectangle()
+obj.area()
+------------------------------------------------------------
+
+class Payment:
+    def pay(self):
+        print("Normal payment")
+
+class UPI(Payment):
+    def pay(self):
+        print("Payment using UPI")
+
+obj = UPI()
+obj.pay()
+---------------------------------------------------------
+
+class Teacher:
+    def teach(self):
+        print("Teacher teaches")
+
+class ComputerTeacher(Teacher):
+    def teach(self):
+        print("Teaching Python")
+
+obj = ComputerTeacher()
+obj.teach()
+---------------------------------------------------
+
+class Bird:
+    def fly(self):
+        print("Bird can fly")
+
+class Penguin(Bird):
+    def fly(self):
+        print("Penguin cannot fly")
+
+obj = Penguin()
+obj.fly()
+-------------------------------------------------
+class Calculator:
+    def add(self):
+        print("Normal addition")
+
+class AdvancedCalculator(Calculator):
+    def add(self):
+        print("Advanced addition")
+
+obj = AdvancedCalculator()
+obj.add()
+----------------------------------------------------
+
+class Hospital:
+    def treatment(self):
+        print("General treatment")
+
+class DentalHospital(Hospital):
+    def treatment(self):
+        print("Dental treatment")
+
+obj = DentalHospital()
+obj.treatment()
+------------------------------------------------------
+class Food:
+    def taste(self):
+        print("Food has taste")
+
+class Pizza(Food):
+    def taste(self):
+        print("Pizza is delicious")
+
+obj = Pizza()
+obj.taste()
+
+-----------------------------------------------------------
+class Laptop:
+    def coding(self):
+        print("Basic coding")
+
+class HP(Laptop):
+    def coding(self):
+        print("Python coding on HP laptop")
+
+obj = HP()
+obj.coding()
+
+-----------------------------------------------------------
+class University:
+    def exam(self):
+        print("University examination")
+
+class College(University):
+    def exam(self):
+        print("College internal examination")
+
+obj = College()
+obj.exam()
+---------------------------------------------------------
+class Transport:
+    def speed(self):
+        print("Normal speed")
+
+class Train(Transport):
+    def speed(self):
+        print("Train speed is 100 km/h")
+
+obj = Train()
+obj.speed()
+--------------------------------------------------------
+class Transport:
+    def speed(self):
+        print("Normal speed")
+
+class Train(Transport):
+    def speed(self):
+        print("Train speed is 100 km/h")
+
+obj = Train()
+obj.speed()
+----------------------------------------------
+class Camera:
+    def photo(self):
+        print("Normal photo")
+
+class DSLR(Camera):
+    def photo(self):
+        print("Professional photo")
+
+obj = DSLR()
+obj.photo()
+----------------------------------------------
+
+class Developer:
+    def language(self):
+        print("Programming language")
+
+class PythonDeveloper(Developer):
+    def language(self):
+        print("Python programming")
+
+obj = PythonDeveloper()
+obj.language()
+---------------------------------------------------
+class Person:
+    def details(self):
+        print("Person details")
+
+class Employee(Person):
+    def details(self):
+        print("Employee details")
+
+obj = Employee()
+obj.details()
+----------------------------------------------------
