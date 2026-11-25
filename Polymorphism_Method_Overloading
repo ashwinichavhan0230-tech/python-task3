@@ -1,0 +1,27 @@
+#Method Overloading
+Example 2 Calculator (Addition)
+class Calculator:
+
+    def add(self, a, b=0, c=0):
+        print("Addition:", a + b + c)
+
+
+obj = Calculator()
+
+obj.add(10)
+obj.add(10, 20)
+obj.add(10, 20, 30)
+---------------------------------------------------------------------
+Student (Marks)
+
+class Student:
+
+    def marks(self, a, b=0):
+        print("Total Marks:", a + b)
+
+
+obj = Student()
+
+obj.marks(80)
+obj.marks(80, 90)
+------------------------------------------------------------
